@@ -1,6 +1,11 @@
 from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
 @app.get("/fib")
 async def fib(n: int=None):
     print(n)
