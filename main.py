@@ -8,8 +8,6 @@ async def root():
 
 @app.get("/fib")
 async def fib(n: int=None):
-    print(n)
-    print(f"n is int: {isinstance(n, int)}")
     validate(n)
     ans: int = calc_fib(n)
     return {"result": ans}
