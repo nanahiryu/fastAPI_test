@@ -4,7 +4,7 @@
   - 前から興味があり, シンプルな API を立てるのに使えるらしかったので使ってみた
 - デプロイ: vercel
   - 以前 Next のデプロイをした時に簡単だったため
-  - url: [https://vercel.com/nanahiryu/fast-api-test-speee](https://vercel.com/nanahiryu/fast-api-test-speee)
+  - url: [https://fast-api-test-speee.vercel.app/](https://fast-api-test-speee.vercel.app/)
 
 ## 実装
 
